@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Cybersecurity Map</title>
+
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+  <!-- Наш CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Security -->
+ 
+</head>
+
+<body>
+
+  <h1>🌍 Global Cybersecurity Map</h1>
+
+  <div id="map"></div>
+
+  <section id="info">
+    <h2 id="countryName">Select a country</h2>
+    <p><strong>Cybersecurity Level:</strong> <span id="level"></span></p>
+    <p><strong>Technologies:</strong> <span id="tech"></span></p>
+    <p><strong>Global Rank:</strong> <span id="rank"></span></p>
+    <p><strong>Top University:</strong> <span id="uni"></span></p>
+    <p><strong>National Agency:</strong> <span id="agency"></span></p>
+  </section>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Data -->
+  <script src="data.js"></script>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
